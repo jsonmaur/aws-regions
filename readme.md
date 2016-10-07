@@ -7,7 +7,7 @@
 | us-west-2	      | Oregon	        | us-west-2a, us-west-2b, us-west-2c
 | eu-west-1	      | Ireland	        | eu-west-1a, eu-west-1b, eu-west-1c
 | eu-central-1	  | Frankfurt	      | eu-central-1a, eu-central-1b
-| ap-northeast-1	| Tokyo	          | ap-northeast-1a, ap-northeast-1b, ap-northeast-1c
+| ap-northeast-1* | Tokyo	          | ap-northeast-1a, ap-northeast-1b, ap-northeast-1c
 | ap-northeast-2  | Seoul           | ap-northeast-2a, ap-northeast-2c
 | ap-southeast-1	| Singapore	      | ap-southeast-1a, ap-southeast-1b
 | ap-southeast-2	| Sydney	        | ap-southeast-2a, ap-southeast-2b, ap-southeast-2c
