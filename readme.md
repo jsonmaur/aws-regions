@@ -19,5 +19,5 @@
 
 \* *To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*
 
-> NOTE: This data pertains to the AWS EC2 service, other AWS services (e.g. RDS, S3, ...) may differ  
-Information correct as of October 18, 2016.
+> NOTE: This data pertains to the AWS EC2 service in public regions (excluding US GovCloud and China). Other AWS services (e.g. RDS, S3, ...) may differ  
+Information correct as of December 14, 2016.
