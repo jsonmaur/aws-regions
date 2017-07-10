@@ -17,7 +17,15 @@
 | ap-south-1         | Mumbai            | `ap-south-1a` `ap-south-1b`
 | sa-east-1	         | Sao Paulo	       | `sa-east-1a` `sa-east-1b` `sa-east-1c`
 
+# AWS China Regions**
+
+| Region Code        | Region Name       | Availability Zones
+---------------------|-------------------|--------------------------------------------------------
+| cn-north-1         | Bejing            |
+| *(coming soon)*    | *Ningxia*         |
+
 \* *To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*
+\*\* *The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*
 
 > NOTE: This data pertains to the AWS EC2 service in public regions (excluding US GovCloud and China). Other AWS services (e.g. RDS, S3, ...) may differ  
 Information correct as of December 14, 2016.
