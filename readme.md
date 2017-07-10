@@ -16,18 +16,15 @@
 | ap-southeast-2	   | Sydney	           | `ap-southeast-2a` `ap-southeast-2b` `ap-southeast-2c`
 | ap-south-1         | Mumbai            | `ap-south-1a` `ap-south-1b`
 | sa-east-1	         | Sao Paulo	       | `sa-east-1a` `sa-east-1b` `sa-east-1c`
-| us-gov-west-1      | US GovCloud       | `?`
+| us-gov-west-1**    | US GovCloud       | `?`
+| cn-north-1***      | Bejing            | `?`
 | *coming soon*      | Hong Kong         | `...`
 | *coming soon*      | Paris             | `...`
 | *coming soon*      | Stockholm         | `...`
-
-# AWS China Regions**
-
-| Region Code        | Region Name       | Availability Zones
----------------------|-------------------|--------------------------------------------------------
-| cn-north-1         | Bejing            | `?`
 | *coming soon*      | Ningxia           | `...`
 
 \* *To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*
 
-\*\* *The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*
+\*\* *The [US GovCloud](https://aws.amazon.com/govcloud-us/) region is only available to official U.S. government agencies and organizations.*
+
+\*\*\* *The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*
