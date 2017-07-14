@@ -28,3 +28,19 @@
 \*\* *The [US GovCloud](https://aws.amazon.com/govcloud-us/) region is only available to official U.S. government agencies and organizations.*
 
 \*\*\* *The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*
+
+## Javascript API
+
+```bash
+$ npm install aws-regions
+```
+
+```javascript
+const regions = require('aws-regions')
+
+Object.keys(regions) ===
+  ['n-virginia', 'ohio', 'n-california', '...']
+
+regions['n-virginia'] ===
+  { code: 'us-east-1', zones: ['us-east-1a', '...'] }
+```
