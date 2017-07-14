@@ -36,11 +36,64 @@ $ npm install aws-regions
 ```
 
 ```javascript
-const regions = require('aws-regions')
-
-Object.keys(regions) ===
-  ['n-virginia', 'ohio', 'n-california', '...']
-
-regions['n-virginia'] ===
-  { code: 'us-east-1', zones: ['us-east-1a', '...'] }
+const awsRegions = require('aws-regions')
 ```
+
+##### .list()
+
+Returns all the regions in a list format.
+
+```javascript
+awsRegions.list()
+```
+
+```javascript
+[
+  {
+    name: 'n-virginia',
+    code: 'us-east-1',
+    zones: ['...']
+  },
+  // ...
+]
+```
+
+##### .get(String)
+
+Finds a region by the name or the code.
+
+```javascript
+awsRegions.get('n-virginia')
+/* or */
+awsRegions.get('us-east-1')
+```
+
+```javascript
+{
+  name: 'n-virginia',
+  code: 'us-east-1',
+  zones: ['...']
+}
+```
+
+##### .regions
+
+The raw region data object.
+
+```javascript
+{
+  'n-virginia': {
+    code: 'us-east-1',
+    zones: ['us-east-1a', '...']
+  },
+  // ...
+}
+```
+
+## Raw Data
+
+You can download a JSON file of all the region data here: `https://raw.githubusercontent.com/jsonmaur/aws-regions/master/regions.json`
+
+## License
+
+[MIT](license) © [Jason Maurer](http://maur.co)
