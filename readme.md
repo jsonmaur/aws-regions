@@ -92,7 +92,7 @@ The raw region data object.
 
 ## Raw Data
 
-You can download a JSON file of all the region data here: `https://raw.githubusercontent.com/jsonmaur/aws-regions/master/regions.json`
+You can download a JSON file with all the region data [here](https://raw.githubusercontent.com/jsonmaur/aws-regions/master/regions.json).
 
 ## License
 
