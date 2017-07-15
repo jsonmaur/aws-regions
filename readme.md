@@ -39,12 +39,14 @@ $ npm install aws-regions
 const awsRegions = require('aws-regions')
 ```
 
-##### .list()
+##### .list(options: Object)
 
 Returns all the regions in a list format.
 
 ```javascript
 awsRegions.list()
+/* only the public regions */
+awsRegions.list({ public: true })
 ```
 
 ```javascript
@@ -58,7 +60,10 @@ awsRegions.list()
 ]
 ```
 
-##### .get(String)
+- `options`
+  - `public` If true, will only return regions publicly available with a regular AWS account. Defaults to `false`.
+
+##### .get(nameOrCode: String)
 
 Finds a region by the name or the code.
 

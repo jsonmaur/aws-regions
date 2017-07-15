@@ -1,12 +1,19 @@
 const regions = require('./regions.json')
 
-function list () {
+function list (opts = {}) {
   return Object.keys(regions)
     .map((region) => {
+      if (opts.public) {
+        if (region.match(/bejing|us-govcloud/)) {
+          return
+        }
+      }
+
       return Object.assign({}, {
         name: region
       }, regions[region])
     })
+    .filter(Boolean)
 }
 
 function get (nameOrCode) {
