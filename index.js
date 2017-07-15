@@ -3,10 +3,8 @@ const regions = require('./regions.json')
 function list (opts = {}) {
   return Object.keys(regions)
     .map((region) => {
-      if (opts.public) {
-        if (region.match(/bejing|us-govcloud/)) {
-          return
-        }
+      if (opts.public && !regions[region].public) {
+        return
       }
 
       return Object.assign({}, {

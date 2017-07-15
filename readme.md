@@ -54,6 +54,7 @@ awsRegions.list({ public: true })
   {
     name: 'n-virginia',
     code: 'us-east-1',
+    public: true,
     zones: ['...']
   },
   // ...
@@ -77,6 +78,7 @@ awsRegions.get('us-east-1')
 {
   name: 'n-virginia',
   code: 'us-east-1',
+  public: true,
   zones: ['...']
 }
 ```
@@ -89,6 +91,7 @@ The raw region data object.
 {
   'n-virginia': {
     code: 'us-east-1',
+    public: true,
     zones: ['us-east-1a', '...']
   },
   // ...
