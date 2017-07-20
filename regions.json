@@ -7,7 +7,8 @@
       "us-east-1b",
       "us-east-1c",
       "us-east-1d",
-      "us-east-1e"
+      "us-east-1e",
+      "us-east-1f"
     ]
   },
   "ohio": {
@@ -75,7 +76,8 @@
     "public": true,
     "zones": [
       "eu-central-1a",
-      "eu-central-1b"
+      "eu-central-1b",
+      "eu-central-1c"
     ]
   },
   "tokyo": {
