@@ -6,7 +6,7 @@
 | us-east-2          | Ohio              | `us-east-2a` `us-east-2b` `us-east-2c`
 | us-west-1*         | N. California     | `us-west-1a` `us-west-1b` `us-west-1c`
 | us-west-2	         | Oregon	           | `us-west-2a` `us-west-2b` `us-west-2c`
-| us-gov-west-1**    | US GovCloud       | `us-gov-west-1a` `us-gov-west-1b`
+| us-gov-west-1**    | US GovCloud West  | `us-gov-west-1a` `us-gov-west-1b`
 | ca-central-1       | Canada            | `ca-central-1a` `ca-central-1b`
 | eu-west-1	         | Ireland	         | `eu-west-1a` `eu-west-1b` `eu-west-1c`
 | eu-west-2          | London            | `eu-west-2a` `eu-west-2b`
@@ -16,12 +16,13 @@
 | ap-southeast-1	   | Singapore	       | `ap-southeast-1a` `ap-southeast-1b`
 | ap-southeast-2	   | Sydney	           | `ap-southeast-2a` `ap-southeast-2b` `ap-southeast-2c`
 | ap-south-1         | Mumbai            | `ap-south-1a` `ap-south-1b`
-| sa-east-1	         | Sao Paulo	       | `sa-east-1a` `sa-east-1b` `sa-east-1c`
+| sa-east-1*         | Sao Paulo	       | `sa-east-1a` `sa-east-1b` `sa-east-1c`
 | cn-north-1***      | Bejing            | `cn-north-1a` `cn-north-1b`
 | *coming soon*      | Hong Kong         | `...`
 | *coming soon*      | Paris             | `...`
 | *coming soon*      | Stockholm         | `...`
 | *coming soon*      | Ningxia           | `...`
+| *coming soon*      | US GovCloud East  | `...`
 
 \* *To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*
 
