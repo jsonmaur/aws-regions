@@ -38,7 +38,7 @@
       "us-west-2c"
     ]
   },
-  "us-govcloud": {
+  "us-govcloud-west": {
     "code": "us-gov-west-1",
     "public": false,
     "zones": [
