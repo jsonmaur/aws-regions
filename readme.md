@@ -18,6 +18,7 @@
 | ap-south-1         | Mumbai            | `ap-south-1a` `ap-south-1b`
 | sa-east-1*         | Sao Paulo	       | `sa-east-1a` `sa-east-1b` `sa-east-1c`
 | cn-north-1***      | Bejing            | `cn-north-1a` `cn-north-1b`
+| *coming soon*      | Bahrain           | `...`
 | *coming soon*      | Hong Kong         | `...`
 | *coming soon*      | Paris             | `...`
 | *coming soon*      | Stockholm         | `...`
