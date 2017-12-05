@@ -1,6 +1,7 @@
 {
-  "n-virginia": {
-    "code": "us-east-1",
+  "us-east-1": {
+    "location": "US East (N. Virginia)",
+    "iata": "IAD",
     "public": true,
     "zones": [
       "us-east-1a",
@@ -9,134 +10,221 @@
       "us-east-1d",
       "us-east-1e",
       "us-east-1f"
-    ]
+    ],
+    "elb": {
+      "elb_hosted_zone_id": "Z35SXDOTRQ7X7K",
+      "nlb_hosted_zone_id": "Z26RNL4JYFTOTI",
+      "account_id": "127311923021"
+    }
   },
-  "ohio": {
-    "code": "us-east-2",
+  "us-east-2": {
+    "location": "US East (Ohio)",
+    "iata": "LUK",
     "public": true,
     "zones": [
       "us-east-2a",
       "us-east-2b",
       "us-east-2c"
-    ]
+    ],
+    "elb": {
+      "elb_hosted_zone_id": "Z3AADJGX6KTTL2",
+      "nlb_hosted_zone_id": "ZLMOA37VPKANP",
+      "account_id": "033677994240"
+    }
   },
-  "n-california": {
-    "code": "us-west-1",
-    "public": true,
-    "zones": [
-      "us-west-1a",
-      "us-west-1b",
-      "us-west-1c"
-    ]
-  },
-  "oregon": {
-    "code": "us-west-2",
+  "us-west-2": {
+    "location": "US West (Oregon)",
+    "iata": "PDX",
     "public": true,
     "zones": [
       "us-west-2a",
       "us-west-2b",
       "us-west-2c"
-    ]
+    ],
+    "elb": {
+      "account_id": "797873946194",
+      "nlb_hosted_zone_id": "Z18D5FSROUN65G",
+      "elb_hosted_zone_id": "Z1H1FL5HABSF5"
+    }
   },
-  "us-govcloud-west": {
-    "code": "us-gov-west-1",
-    "public": false,
-    "zones": [
-      "us-gov-west-1a",
-      "us-gov-west-1b"
-    ]
-  },
-  "canada": {
-    "code": "ca-central-1",
+  "us-west-1": {
+    "location": "US West (N. California)",
+    "iata": "SFO",
     "public": true,
     "zones": [
-      "ca-central-1a",
-      "ca-central-1b"
-    ]
+      "us-west-1a",
+      "us-west-1b",
+      "us-west-1c"
+    ],
+    "elb": {
+      "account_id": "027434742980",
+      "nlb_hosted_zone_id": "Z24FKFUX50B4VW",
+      "elb_hosted_zone_id": "Z368ELLRRE2KJ0"
+    }
   },
-  "ireland": {
-    "code": "eu-west-1",
+  "eu-west-1": {
+    "location": "EU (Ireland)",
+    "iata": "DUB",
     "public": true,
     "zones": [
       "eu-west-1a",
       "eu-west-1b",
       "eu-west-1c"
-    ]
+    ],
+    "elb": {
+      "account_id": "156460612806",
+      "nlb_hosted_zone_id": "Z2IFOLAFXWLO4F",
+      "elb_hosted_zone_id": "Z32O12XQLNTSW2"
+    }
   },
-  "london": {
-    "code": "eu-west-2",
-    "public": true,
-    "zones": [
-      "eu-west-2a",
-      "eu-west-2b"
-    ]
-  },
-  "frankfurt": {
-    "code": "eu-central-1",
+  "eu-central-1": {
+    "location": "EU (Frankfurt)",
+    "iata": "FRA",
     "public": true,
     "zones": [
       "eu-central-1a",
       "eu-central-1b",
       "eu-central-1c"
-    ]
+    ],
+    "elb": {
+      "account_id": "054676820928",
+      "nlb_hosted_zone_id": "Z3F0SRJ5LGBH90",
+      "elb_hosted_zone_id": "Z215JYRZR1TBD5"
+    }
   },
-  "tokyo": {
-    "code": "ap-northeast-1",
-    "public": true,
-    "zones": [
-      "ap-northeast-1a",
-      "ap-northeast-1b",
-      "ap-northeast-1c"
-    ]
-  },
-  "seoul": {
-    "code": "ap-northeast-2",
-    "public": true,
-    "zones": [
-      "ap-northeast-2a",
-      "ap-northeast-2c"
-    ]
-  },
-  "singapore": {
-    "code": "ap-southeast-1",
+  "ap-southeast-1": {
+    "location": "Asia Pacific (Singapore)",
+    "iata": "SIN",
     "public": true,
     "zones": [
       "ap-southeast-1a",
       "ap-southeast-1b"
-    ]
+    ],
+    "elb": {
+      "account_id": "114774131450",
+      "nlb_hosted_zone_id": "ZKVM4W9LS7TM",
+      "elb_hosted_zone_id": "Z1LMS91P8CMLE5"
+    }
   },
-  "sydney": {
-    "code": "ap-southeast-2",
+  "ap-northeast-1": {
+    "location": "Asia Pacific (Tokyo)",
+    "iata": "NRT",
+    "zones": [
+      "ap-northeast-1a",
+      "ap-northeast-1b",
+      "ap-northeast-1c"
+    ],
+    "total_zones": 3,
+    "elb": {
+      "account_id": "582318560864",
+      "nlb_hosted_zone_id": "Z31USIVHYNEOWT",
+      "elb_hosted_zone_id": "Z14GRHDCWA56QT"
+    }
+  },
+  "ap-southeast-2": {
+    "location": "Asia Pacific (Sydney)",
+    "iata": "SYD",
     "public": true,
     "zones": [
       "ap-southeast-2a",
       "ap-southeast-2b",
       "ap-southeast-2c"
-    ]
+    ],
+    "elb": {
+      "account_id": "783225319266",
+      "nlb_hosted_zone_id": "ZCT6FZBF4DROD",
+      "elb_hosted_zone_id": "Z1GM3OXH4ZPM65"
+    }
   },
-  "mumbai": {
-    "code": "ap-south-1",
+  "ap-northeast-2": {
+    "location": "Asia Pacific (Seoul)",
+    "iata": "ICN",
     "public": true,
     "zones": [
-      "ap-south-1a",
-      "ap-south-1b"
-    ]
+      "ap-northeast-2a",
+      "ap-northeast-2c"
+    ],
+    "elb": {
+      "account_id": "600734575887",
+      "nlb_hosted_zone_id": "ZIBE1TIR4HY56",
+      "elb_hosted_zone_id": "ZWKZPGTI48KDX"
+    }
   },
-  "sao-paulo": {
-    "code": "sa-east-1",
+  "sa-east-1": {
+    "location": "South America (Sao Paulo)",
+    "iata": "GRU",
     "public": true,
     "zones": [
       "sa-east-1a",
       "sa-east-1b",
       "sa-east-1c"
-    ]
+    ],
+    "elb": {
+      "account_id": "507241528517",
+      "nlb_hosted_zone_id": "ZTK26PT1VY4CU",
+      "elb_hosted_zone_id": "Z2P70J7HTTTPLU"
+    }
   },
-  "bejing": {
-    "code": "cn-north-1",
+  "ap-south-1": {
+    "location": "India (Mumbai)",
+    "iata": "BOM",
+    "public": true,
+    "zones": [
+      "ap-south-1a",
+      "ap-south-1b"
+    ],
+    "elb": {
+      "account_id": "718504428378",
+      "nlb_hosted_zone_id": "ZVDDRBQ08TROA",
+      "elb_hosted_zone_id": "ZP97RAFLXTNZK"
+    }
+  },
+  "ca-central-1": {
+    "location": "Canada (Montreal)",
+    "iata": "YUL",
+    "public": true,
+    "zones": [
+      "ca-central-1a",
+      "ca-central-1b"
+    ],
+    "elb": {
+      "account_id": "985666609251",
+      "nlb_hosted_zone_id": "Z2EPGBW3API2WT",
+      "elb_hosted_zone_id": "ZP97RAFLXTNZK"
+    }
+  },
+  "eu-west-2": {
+    "location": "United Kingdom (London)",
+    "iata": "LHR",
+    "public": true,
+    "elb": {
+      "account_id": "652711504416",
+      "nlb_hosted_zone_id": "ZD4D7Y8KGAS4G",
+      "elb_hosted_zone_id": "ZHURV8PSTC4K8"
+    }
+  },
+  "us-gov-west-1": {
+    "location": "AWS GovCloud (US)",
+    "iata": "",
+    "public": false,
+    "zones": [
+      "us-gov-west-1a",
+      "us-gov-west-1b"
+    ],
+    "elb": {
+      "account_id": "048591011584"
+    }
+  },
+  "cn-north-1": {
+    "location": "Beijing (China)",
+    "iata": "PEK",
     "public": false,
     "zones": [
       "cn-north-1a",
       "cn-north-1b"
-    ]
+    ],
+    "elb": {
+      "account_id": "638102146993"
+    }
   }
 }
