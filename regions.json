@@ -274,5 +274,18 @@
     "s3": {
       "hosted_zone_id": ""
     }
+  },
+  "cn-northwest-1": {
+    "location": "Ningxia (China)",
+    "iata": "INC",
+    "public": false,
+    "zones": [
+      "cn-northwest-1a",
+      "cn-northwest-1b"
+    ],
+    "elb": {
+    },
+    "s3": {
+    }
   }
 }
