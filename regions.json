@@ -71,6 +71,14 @@
       "eu-west-2b"
     ]
   },
+  "paris": {
+    "code": "eu-west-3",
+    "public": true,
+    "zones": [
+      "eu-west-3a",
+      "eu-west-3b"
+    ]
+  },
   "frankfurt": {
     "code": "eu-central-1",
     "public": true,
