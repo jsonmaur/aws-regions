@@ -23,6 +23,7 @@
 | *coming soon*      | Bahrain           | `...`
 | *coming soon*      | Hong Kong         | `...`
 | *coming soon*      | Stockholm         | `...`
+| *coming soon*      | SAR               | `...`
 | *coming soon*      | US GovCloud East  | `...`
 
 \* *To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*
