@@ -19,10 +19,10 @@
 | ap-south-1         | Mumbai            | `ap-south-1a` `ap-south-1b`
 | sa-east-1*         | Sao Paulo	       | `sa-east-1a` `sa-east-1b` `sa-east-1c`
 | cn-north-1***      | Bejing            | `cn-north-1a` `cn-north-1b`
+| cn-northwest-1***  | Ningxia           | `cn-northwest-1a` `cn-northwest-1b`
 | *coming soon*      | Bahrain           | `...`
 | *coming soon*      | Hong Kong         | `...`
 | *coming soon*      | Stockholm         | `...`
-| *coming soon*      | Ningxia           | `...`
 | *coming soon*      | US GovCloud East  | `...`
 
 \* *To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*

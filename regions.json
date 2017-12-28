@@ -147,5 +147,13 @@
       "cn-north-1a",
       "cn-north-1b"
     ]
+  },
+  "ningxia": {
+    "code": "cn-northwest-1",
+    "public": false,
+    "zones": [
+      "cn-northwest-1a",
+      "cn-northwest-1b"
+    ]
   }
 }
