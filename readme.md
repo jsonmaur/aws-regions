@@ -10,6 +10,7 @@
 | ca-central-1       | Canada            | `ca-central-1a` `ca-central-1b`
 | eu-west-1	         | Ireland	         | `eu-west-1a` `eu-west-1b` `eu-west-1c`
 | eu-west-2          | London            | `eu-west-2a` `eu-west-2b`
+| eu-west-3          | Paris             | `eu-west-3a` `eu-west-3b` `eu-west-3c`
 | eu-central-1	     | Frankfurt	       | `eu-central-1a` `eu-central-1b` `eu-central-1c`
 | ap-northeast-1*    | Tokyo	           | `ap-northeast-1a` `ap-northeast-1b` `ap-northeast-1c`
 | ap-northeast-2     | Seoul             | `ap-northeast-2a` `ap-northeast-2c`
@@ -20,7 +21,6 @@
 | cn-north-1***      | Bejing            | `cn-north-1a` `cn-north-1b`
 | *coming soon*      | Bahrain           | `...`
 | *coming soon*      | Hong Kong         | `...`
-| *coming soon*      | Paris             | `...`
 | *coming soon*      | Stockholm         | `...`
 | *coming soon*      | Ningxia           | `...`
 | *coming soon*      | US GovCloud East  | `...`
