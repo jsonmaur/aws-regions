@@ -9,7 +9,7 @@
 | us-gov-west-1**    | US GovCloud West  | `us-gov-west-1a` `us-gov-west-1b`
 | ca-central-1       | Canada            | `ca-central-1a` `ca-central-1b`
 | eu-west-1	         | Ireland	         | `eu-west-1a` `eu-west-1b` `eu-west-1c`
-| eu-west-2          | London            | `eu-west-2a` `eu-west-2b`
+| eu-west-2          | London            | `eu-west-2a` `eu-west-2b` `eu-west-2c`
 | eu-west-3          | Paris             | `eu-west-3a` `eu-west-3b` `eu-west-3c`
 | eu-central-1	     | Frankfurt	       | `eu-central-1a` `eu-central-1b` `eu-central-1c`
 | ap-northeast-1*    | Tokyo	           | `ap-northeast-1a` `ap-northeast-1b` `ap-northeast-1c`
