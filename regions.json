@@ -43,7 +43,8 @@
     "public": false,
     "zones": [
       "us-gov-west-1a",
-      "us-gov-west-1b"
+      "us-gov-west-1b",
+      "us-gov-west-1c"
     ]
   },
   "canada": {
