@@ -22,9 +22,8 @@
 | <sup>3</sup>cn-northwest-1 | Ningxia | `cn-northwest-1a` `cn-northwest-1b`
 | *<sup>4</sup>ap-northeast-3* | Osaka | `...`
 | *coming soon* | Bahrain | `...`
-| *coming soon* | Hong Kong | `...`
+| *coming soon* | Hong Kong SAR | `...`
 | *coming soon* | Stockholm | `...`
-| *coming soon* | SAR | `...`
 | *coming soon* | US GovCloud East | `...`
 
 *<sup>1</sup>To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*  
