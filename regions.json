@@ -97,7 +97,8 @@
     "zones": [
       "ap-northeast-1a",
       "ap-northeast-1b",
-      "ap-northeast-1c"
+      "ap-northeast-1c",
+      "ap-northeast-1d"
     ]
   },
   "seoul": {
@@ -113,7 +114,8 @@
     "public": true,
     "zones": [
       "ap-southeast-1a",
-      "ap-southeast-1b"
+      "ap-southeast-1b",
+      "ap-southeast-1c"
     ]
   },
   "sydney": {
@@ -155,7 +157,8 @@
     "public": false,
     "zones": [
       "cn-northwest-1a",
-      "cn-northwest-1b"
+      "cn-northwest-1b",
+      "cn-northwest-1c"
     ]
   }
 }

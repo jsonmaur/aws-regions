@@ -1,4 +1,6 @@
-node_modules
-
+# macos
 .DS_Store
-npm-debug.log
+
+# nodejs
+node_modules
+npm-*.log

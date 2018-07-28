@@ -10,17 +10,17 @@ describe('unit: index', () => {
 
   it('list()', (done) => {
     const data = awsRegions.list()
-    expect(data).to.have.length(16)
+    expect(data).to.have.length(18)
     expect(data[0].name).to.equal('n-virginia')
     expect(data[0].code).to.equal('us-east-1')
     expect(data[0].zones).to.equal(awsRegions.regions['n-virginia'].zones)
-    expect(data[4].name).to.equal('us-govcloud')
+    expect(data[4].name).to.equal('us-govcloud-west')
     done()
   })
 
   it('list() public', (done) => {
     const data = awsRegions.list({ public: true })
-    expect(data).to.have.length(14)
+    expect(data).to.have.length(15)
     expect(data[0].name).to.equal('n-virginia')
     expect(data[4].name).to.equal('canada')
     done()
