@@ -20,7 +20,7 @@
 | <sup>1</sup>sa-east-1 | Sao Paulo | `sa-east-1a` `sa-east-1b` `*sa-east-1c`
 | <sup>3</sup>cn-north-1 | Bejing | `cn-north-1a` `cn-north-1b`
 | <sup>3</sup>cn-northwest-1 | Ningxia | `cn-northwest-1a` `cn-northwest-1b` `cn-northwest-1c`
-| *<sup>4</sup>ap-northeast-3* | Osaka | `...`
+| *<sup>4</sup>ap-northeast-3* | Osaka | `ap-northeast-3a`
 | *coming soon* | Bahrain | `...`
 | *coming soon* | Hong Kong SAR | `...`
 | *coming soon* | Stockholm | `...`
