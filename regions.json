@@ -111,7 +111,7 @@
   },
   "osaka": {
     "code": "ap-northeast-3",
-    "public": true,
+    "public": false,
     "zones": [
       "ap-northeast-3a"
     ]
