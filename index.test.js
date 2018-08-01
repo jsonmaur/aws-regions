@@ -10,7 +10,7 @@ describe('unit: index', () => {
 
   it('list()', (done) => {
     const data = awsRegions.list()
-    expect(data).to.have.length(18)
+    expect(data).to.have.length(19)
     expect(data[0].name).to.equal('n-virginia')
     expect(data[0].code).to.equal('us-east-1')
     expect(data[0].zones).to.equal(awsRegions.regions['n-virginia'].zones)
