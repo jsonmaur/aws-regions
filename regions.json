@@ -109,6 +109,13 @@
       "ap-northeast-2c"
     ]
   },
+  "osaka": {
+    "code": "ap-northeast-3",
+    "public": false,
+    "zones": [
+      "ap-northeast-3a"
+    ]
+  },
   "singapore": {
     "code": "ap-southeast-1",
     "public": true,
