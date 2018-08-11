@@ -14,13 +14,13 @@
 | eu-central-1 | Frankfurt | `eu-central-1a` `eu-central-1b` `eu-central-1c`
 | <sup>1</sup>ap-northeast-1 | Tokyo | `ap-northeast-1a` `ap-northeast-1b` `ap-northeast-1c` `*ap-northeast-1d`
 | ap-northeast-2 | Seoul | `ap-northeast-2a` `ap-northeast-2c`
+| *<sup>4</sup>ap-northeast-3* | Osaka | `ap-northeast-3a`
 | ap-southeast-1 | Singapore | `ap-southeast-1a` `ap-southeast-1b` `ap-southeast-1c`
 | ap-southeast-2 | Sydney | `ap-southeast-2a` `ap-southeast-2b` `ap-southeast-2c`
 | ap-south-1 | Mumbai | `ap-south-1a` `ap-south-1b`
 | <sup>1</sup>sa-east-1 | Sao Paulo | `sa-east-1a` `sa-east-1b` `*sa-east-1c`
 | <sup>3</sup>cn-north-1 | Bejing | `cn-north-1a` `cn-north-1b`
 | <sup>3</sup>cn-northwest-1 | Ningxia | `cn-northwest-1a` `cn-northwest-1b` `cn-northwest-1c`
-| *<sup>4</sup>ap-northeast-3* | Osaka | `ap-northeast-3a`
 | *coming soon* | Bahrain | `...`
 | *coming soon* | Hong Kong SAR | `...`
 | *coming soon* | Stockholm | `...`
