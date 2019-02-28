@@ -1,6 +1,6 @@
 {
 	"name": "aws-regions",
-	"version": "1.5.0",
+	"version": "2.0.0",
 	"description": "List of AWS Regions and Availability Zones",
 	"author": "Jason Maurer",
 	"license": "MIT",
