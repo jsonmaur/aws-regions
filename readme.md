@@ -2,7 +2,7 @@
 
 | Region Code | Region Name | Availability Zones
 |-------------|------------|-------------------
-| <sup>1</sup>us-east-1 | N. Virginia | `us-east-1a` `us-east-1b` `us-east-1c` `us-east-1d` `us-east-1e` `us-east-1f`
+| us-east-1 | N. Virginia | `us-east-1a` `us-east-1b` `us-east-1c` `us-east-1d` `us-east-1e` `us-east-1f`
 | us-east-2 | Ohio | `us-east-2a` `us-east-2b` `us-east-2c`
 | <sup>1</sup>us-west-1 | N. California | `us-west-1a` `us-west-1b` `*us-west-1c`
 | us-west-2 | Oregon | `us-west-2a` `us-west-2b` `us-west-2c` `us-west-2d`
