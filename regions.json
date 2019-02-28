@@ -23,7 +23,7 @@
 	"n-california": {
 		"code": "us-west-1",
 		"public": true,
-	"zone_limit": 2,
+		"zone_limit": 2,
 		"zones": [
 			"us-west-1a",
 			"us-west-1b",
@@ -70,9 +70,9 @@
 		"code": "eu-north-1",
 		"public": true,
 		"zones": [
-		"eu-north-1a",
-		"eu-north-1b",
-		"eu-north-1c"
+			"eu-north-1a",
+			"eu-north-1b",
+			"eu-north-1c"
 		]
 	},
 	"ireland": {
@@ -114,7 +114,7 @@
 	"tokyo": {
 		"code": "ap-northeast-1",
 		"public": true,
-	"zone_limit": 3,
+		"zone_limit": 3,
 		"zones": [
 			"ap-northeast-1a",
 			"ap-northeast-1b",
@@ -166,7 +166,7 @@
 	"sao-paulo": {
 		"code": "sa-east-1",
 		"public": true,
-	"zone_limit": 2,
+		"zone_limit": 2,
 		"zones": [
 			"sa-east-1a",
 			"sa-east-1b",
