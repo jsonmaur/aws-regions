@@ -5,9 +5,11 @@
 | <sup>1</sup>us-east-1 | N. Virginia | `us-east-1a` `us-east-1b` `us-east-1c` `us-east-1d` `us-east-1e` `us-east-1f`
 | us-east-2 | Ohio | `us-east-2a` `us-east-2b` `us-east-2c`
 | <sup>1</sup>us-west-1 | N. California | `us-west-1a` `us-west-1b` `*us-west-1c`
-| us-west-2 | Oregon | `us-west-2a` `us-west-2b` `us-west-2c`
+| us-west-2 | Oregon | `us-west-2a` `us-west-2b` `us-west-2c` `us-west-2d`
 | <sup>2</sup>us-gov-west-1 | US GovCloud West | `us-gov-west-1a` `us-gov-west-1b` `us-gov-west-1c`
+| <sup>2</sup>us-gov-east-1 | US GovCloud East | `us-gov-east-1a` `us-gov-east-1b` `us-gov-east-1c`
 | ca-central-1 | Canada | `ca-central-1a` `ca-central-1b`
+| eu-north-1 | Stockholm | `eu-north-1a` `eu-north-1b` `eu-north-1c`
 | eu-west-1 | Ireland | `eu-west-1a` `eu-west-1b` `eu-west-1c`
 | eu-west-2 | London | `eu-west-2a` `eu-west-2b` `eu-west-2c`
 | eu-west-3 | Paris | `eu-west-3a` `eu-west-3b` `eu-west-3c`
@@ -22,9 +24,9 @@
 | <sup>3</sup>cn-north-1 | Bejing | `cn-north-1a` `cn-north-1b`
 | <sup>3</sup>cn-northwest-1 | Ningxia | `cn-northwest-1a` `cn-northwest-1b` `cn-northwest-1c`
 | *coming soon* | Bahrain | `...`
+| *coming soon* | Cape Town | `...`
 | *coming soon* | Hong Kong SAR | `...`
-| *coming soon* | Stockholm | `...`
-| *coming soon* | US GovCloud East | `...`
+| *coming soon* | Milan | `...`
 
 *<sup>1</sup>To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*  
 *<sup>2</sup>The [US GovCloud](https://aws.amazon.com/govcloud-us/) region is only available to official U.S. government agencies and organizations.*  
@@ -100,6 +102,10 @@ The raw region data object.
   // ...
 }
 ```
+
+## Zone Limit
+
+If a region's data object includes `zone_limit: int`, that means AWS accounts are limited to this number of availability zones and they will differ based on when your account was created. You'll need to get your availability zones through the AWS API.
 
 ## Raw Data
 
