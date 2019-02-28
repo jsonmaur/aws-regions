@@ -56,18 +56,18 @@ awsRegions.list({ public: true })
 
 ```javascript
 [
-  {
-    name: 'n-virginia',
-    code: 'us-east-1',
-    public: true,
-    zones: ['...']
-  },
-  // ...
+	{
+		name: 'n-virginia',
+		code: 'us-east-1',
+		public: true,
+		zones: ['...']
+	},
+	// ...
 ]
 ```
 
 - `options`
-  - `public` If true, will only return regions publicly available with a regular AWS account. Defaults to `false`.
+	- `public` If true, will only return regions publicly available with a regular AWS account. Defaults to `false`.
 
 ##### .get(nameOrCode: String)
 
@@ -81,10 +81,10 @@ awsRegions.get('us-east-1')
 
 ```javascript
 {
-  name: 'n-virginia',
-  code: 'us-east-1',
-  public: true,
-  zones: ['...']
+	name: 'n-virginia',
+	code: 'us-east-1',
+	public: true,
+	zones: ['...']
 }
 ```
 
@@ -94,12 +94,12 @@ The raw region data object.
 
 ```javascript
 {
-  'n-virginia': {
-    code: 'us-east-1',
-    public: true,
-    zones: ['us-east-1a', '...']
-  },
-  // ...
+	'n-virginia': {
+		code: 'us-east-1',
+		public: true,
+		zones: ['us-east-1a', '...']
+	},
+	// ...
 }
 ```
 

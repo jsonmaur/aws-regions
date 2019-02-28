@@ -1,45 +1,45 @@
 {
-  "name": "aws-regions",
-  "version": "1.4.1",
-  "description": "List of AWS Regions and Availability Zones",
-  "author": "Jason Maurer",
-  "license": "MIT",
-  "homepage": "https://github.com/jsonmaur/aws-regions#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jsonmaur/aws-regions.git"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "keywords": [
-    "aws",
-    "amazon",
-    "regions",
-    "availability",
-    "zones",
-    "azs",
-    "global",
-    "infrastructure"
-  ],
-  "main": "index.js",
-  "scripts": {
-    "test:lint": "standard --verbose | snazzy",
-    "test:unit": "mocha index.test.js",
-    "test": "npm-run-all test:*"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "chai": "4.2.0",
-    "mocha": "6.0.2",
-    "npm-run-all": "4.1.5",
-    "snazzy": "8.0.0",
-    "standard": "12.0.1"
-  },
-  "standard": {
-    "globals": [
-      "describe",
-      "it"
-    ]
-  }
+	"name": "aws-regions",
+	"version": "1.4.1",
+	"description": "List of AWS Regions and Availability Zones",
+	"author": "Jason Maurer",
+	"license": "MIT",
+	"homepage": "https://github.com/jsonmaur/aws-regions#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jsonmaur/aws-regions.git"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"keywords": [
+		"aws",
+		"amazon",
+		"regions",
+		"availability",
+		"zones",
+		"azs",
+		"global",
+		"infrastructure"
+	],
+	"main": "index.js",
+	"scripts": {
+		"test:lint": "standard --verbose | snazzy",
+		"test:unit": "mocha index.test.js",
+		"test": "npm-run-all test:*"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"chai": "4.2.0",
+		"mocha": "6.0.2",
+		"npm-run-all": "4.1.5",
+		"snazzy": "8.0.0",
+		"standard": "12.0.1"
+	},
+	"standard": {
+		"globals": [
+			"describe",
+			"it"
+		]
+	}
 }
