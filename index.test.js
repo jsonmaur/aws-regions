@@ -3,58 +3,53 @@ const awsRegions = require('./index')
 const awsJson = require('./regions.json')
 
 describe('unit: index', () => {
-	it('exports data', (done) => {
-		expect(awsRegions.regions['n-virginia'].code).to.equal('us-east-1')
-		done()
-	})
-
-	it('list()', (done) => {
+	it('list()', async () => {
 		const data = awsRegions.list()
-		expect(data).to.have.length(19)
-		expect(data[0].name).to.equal('n-virginia')
-		expect(data[0].code).to.equal('us-east-1')
-		expect(data[0].zones).to.equal(awsRegions.regions['n-virginia'].zones)
-		expect(data[4].name).to.equal('us-govcloud-west')
-		done()
+		expect(data).to.have.length(awsJson.length)
+		expect(data[0]).to.deep.equal(awsJson[0])
 	})
 
-	it('list() public', (done) => {
+	it('list() public', async () => {
 		const data = awsRegions.list({ public: true })
-		expect(data).to.have.length(15)
-		expect(data[0].name).to.equal('n-virginia')
-		expect(data[4].name).to.equal('canada')
-		done()
+		expect(data).to.have.length(16)
 	})
 
-	it('get() by name', (done) => {
-		const data = awsRegions.get('oregon')
-		expect(data.name).to.equal('oregon')
-		expect(data.code).to.equal('us-west-2')
-		expect(data.zones).to.equal(awsRegions.regions['oregon'].zones)
-		done()
+	it('lookup() by name', async () => {
+		const data = awsRegions.lookup({ name: 'Ohio' })
+		expect(data).to.deep.equal(awsJson[1])
 	})
 
-	it('get() by code', (done) => {
-		const data = awsRegions.get('us-west-2')
-		expect(data.name).to.equal('oregon')
-		expect(data.code).to.equal('us-west-2')
-		expect(data.zones).to.equal(awsRegions.regions['oregon'].zones)
-		done()
+	it('get() by name deprecated', async () => {
+		const data = awsRegions.get('Ohio')
+		expect(data).to.deep.equal(awsJson[1])
 	})
 
-	it('formatted json', (done) => {
-		expect(awsJson['n-virginia'].code).to.equal('us-east-1')
-		done()
+	it('lookup() by code', async () => {
+		const data = awsRegions.lookup({ code: 'us-east-2' })
+		expect(data).to.deep.equal(awsJson[1])
 	})
 
-	it('uses correct zones for each region', (done) => {
-		Object.keys(awsJson).forEach(key => {
-			const { code, zones } = awsJson[key]
-			expect(code).to.match(/[a-z]+-[a-z]+-[0-9]/)
-			zones.forEach(zone => {
-				expect(zone).to.match(new RegExp(`^${code}`))
+	it('get() by code deprecated', async () => {
+		const data = awsRegions.get('us-east-2')
+		expect(data).to.deep.equal(awsJson[1])
+	})
+
+	it('formatted json', async () => {
+		expect(awsJson[0].code).to.equal('us-east-1')
+	})
+
+	it('uses correct name for each region', async () => {
+		awsJson.forEach(region => {
+			expect(region.full_name).to.include(region.name.split(" ")[0])
+		})
+	})
+
+	it('uses correct zones for each region', async () => {
+		awsJson.forEach(region => {
+			expect(region.code).to.match(/[a-z]+-[a-z]+-[0-9]/)
+			region.zones.forEach(zone => {
+				expect(zone).to.match(new RegExp(`^${region.code}`))
 			})
 		})
-		done()
 	})
 })

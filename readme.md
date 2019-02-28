@@ -46,66 +46,53 @@ const awsRegions = require('aws-regions')
 
 ##### .list(options: Object)
 
-Returns all the regions in a list format.
+Returns all the regions.
 
 ```javascript
-awsRegions.list()
-/* only the public regions */
-awsRegions.list({ public: true })
-```
-
-```javascript
-[
-	{
-		name: 'n-virginia',
-		code: 'us-east-1',
-		public: true,
-		zones: ['...']
-	},
-	// ...
-]
+awsRegions.list() ===
+	[
+		{
+			name: 'N. Virginia',
+			full_name: 'US East (N. Virginia)',
+			code: 'us-east-1',
+			public: true,
+			zones: [
+				'us-east-1a',
+				// ...
+			],
+		},
+		// ...
+	]
 ```
 
 - `options`
 	- `public` If true, will only return regions publicly available with a regular AWS account. Defaults to `false`.
 
-##### .get(nameOrCode: String)
+##### .lookup(options: Object)
 
 Finds a region by the name or the code.
 
 ```javascript
-awsRegions.get('n-virginia')
-/* or */
-awsRegions.get('us-east-1')
-```
-
-```javascript
-{
-	name: 'n-virginia',
-	code: 'us-east-1',
-	public: true,
-	zones: ['...']
-}
-```
-
-##### .regions
-
-The raw region data object.
-
-```javascript
-{
-	'n-virginia': {
+awsRegions.lookup({ code: 'us-east-1' }) ===
+	{
+		name: 'N. Virginia',
+		full_name: 'US East (N. Virginia)',
 		code: 'us-east-1',
 		public: true,
-		zones: ['us-east-1a', '...']
-	},
-	// ...
-}
+		zones: [
+			'us-east-1a',
+			// ...
+		],
+	}
 ```
+
+- `options`
+	- `code` Lookup a region by its code (e.g. `us-east-1`).
+	- `name` Lookup a region by its name (e.g. `N. Virginia`).
 
 ## Zone Limit
 
-If a region's data object includes `zone_limit: int`, that means AWS accounts are limited to this number of availability zones and they will differ based on when your account was created. You'll need to get your availability zones through the AWS API.
+If a region's data object includes `zone_limit: int`, that means AWS accounts are limited to this number of availability zones (which will differ based on when your account was created.) You'll need to get your specific availability zones for this region with the AWS API or CLI.
 
 ## Raw Data
 

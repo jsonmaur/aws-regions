@@ -1,5 +1,7 @@
-{
-	"n-virginia": {
+[
+	{
+		"name": "N. Virginia",
+		"full_name": "US East (N. Virginia)",
 		"code": "us-east-1",
 		"public": true,
 		"zones": [
@@ -11,7 +13,9 @@
 			"us-east-1f"
 		]
 	},
-	"ohio": {
+	{
+		"name": "Ohio",
+		"full_name": "US East (Ohio)",
 		"code": "us-east-2",
 		"public": true,
 		"zones": [
@@ -20,7 +24,9 @@
 			"us-east-2c"
 		]
 	},
-	"n-california": {
+	{
+		"name": "N. California",
+		"full_name": "US West (N. California)",
 		"code": "us-west-1",
 		"public": true,
 		"zone_limit": 2,
@@ -30,7 +36,9 @@
 			"us-west-1c"
 		]
 	},
-	"oregon": {
+	{
+		"name": "Oregon",
+		"full_name": "US West (Oregon)",
 		"code": "us-west-2",
 		"public": true,
 		"zones": [
@@ -40,7 +48,9 @@
 			"us-west-2d"
 		]
 	},
-	"us-govcloud-west": {
+	{
+		"name": "GovCloud West",
+		"full_name": "AWS GovCloud (US)",
 		"code": "us-gov-west-1",
 		"public": false,
 		"zones": [
@@ -49,7 +59,9 @@
 			"us-gov-west-1c"
 		]
 	},
-	"us-govcloud-east": {
+	{
+		"name": "GovCloud East",
+		"full_name": "AWS GovCloud (US-East)",
 		"code": "us-gov-east-1",
 		"public": false,
 		"zones": [
@@ -58,7 +70,9 @@
 			"us-gov-east-1c"
 		]
 	},
-	"canada": {
+	{
+		"name": "Canada",
+		"full_name": "Canada (Central)",
 		"code": "ca-central-1",
 		"public": true,
 		"zones": [
@@ -66,7 +80,9 @@
 			"ca-central-1b"
 		]
 	},
-	"stockholm": {
+	{
+		"name": "Stockholm",
+		"full_name": "EU (Stockholm)",
 		"code": "eu-north-1",
 		"public": true,
 		"zones": [
@@ -75,7 +91,9 @@
 			"eu-north-1c"
 		]
 	},
-	"ireland": {
+	{
+		"name": "Ireland",
+		"full_name": "EU (Ireland)",
 		"code": "eu-west-1",
 		"public": true,
 		"zones": [
@@ -84,7 +102,9 @@
 			"eu-west-1c"
 		]
 	},
-	"london": {
+	{
+		"name": "London",
+		"full_name": "EU (London)",
 		"code": "eu-west-2",
 		"public": true,
 		"zones": [
@@ -93,7 +113,9 @@
 			"eu-west-2c"
 		]
 	},
-	"paris": {
+	{
+		"name": "Paris",
+		"full_name": "EU (Paris)",
 		"code": "eu-west-3",
 		"public": true,
 		"zones": [
@@ -102,7 +124,9 @@
 			"eu-west-3c"
 		]
 	},
-	"frankfurt": {
+	{
+		"name": "Frankfurt",
+		"full_name": "EU (Frankfurt)",
 		"code": "eu-central-1",
 		"public": true,
 		"zones": [
@@ -111,7 +135,9 @@
 			"eu-central-1c"
 		]
 	},
-	"tokyo": {
+	{
+		"name": "Tokyo",
+		"full_name": "Asia Pacific (Tokyo)",
 		"code": "ap-northeast-1",
 		"public": true,
 		"zone_limit": 3,
@@ -122,7 +148,9 @@
 			"ap-northeast-1d"
 		]
 	},
-	"seoul": {
+	{
+		"name": "Seoul",
+		"full_name": "Asia Pacific (Seoul)",
 		"code": "ap-northeast-2",
 		"public": true,
 		"zones": [
@@ -130,14 +158,18 @@
 			"ap-northeast-2c"
 		]
 	},
-	"osaka": {
+	{
+		"name": "Osaka",
+		"full_name": "Asia Pacific (Osaka-Local)",
 		"code": "ap-northeast-3",
 		"public": false,
 		"zones": [
 			"ap-northeast-3a"
 		]
 	},
-	"singapore": {
+	{
+		"name": "Singapore",
+		"full_name": "Asia Pacific (Singapore)",
 		"code": "ap-southeast-1",
 		"public": true,
 		"zones": [
@@ -146,7 +178,9 @@
 			"ap-southeast-1c"
 		]
 	},
-	"sydney": {
+	{
+		"name": "Sydney",
+		"full_name": "Asia Pacific (Sydney)",
 		"code": "ap-southeast-2",
 		"public": true,
 		"zones": [
@@ -155,7 +189,9 @@
 			"ap-southeast-2c"
 		]
 	},
-	"mumbai": {
+	{
+		"name": "Mumbai",
+		"full_name": "Asia Pacific (Mumbai)",
 		"code": "ap-south-1",
 		"public": true,
 		"zones": [
@@ -163,7 +199,9 @@
 			"ap-south-1b"
 		]
 	},
-	"sao-paulo": {
+	{
+		"name": "São Paulo",
+		"full_name": "South America (São Paulo)",
 		"code": "sa-east-1",
 		"public": true,
 		"zone_limit": 2,
@@ -173,7 +211,9 @@
 			"sa-east-1c"
 		]
 	},
-	"bejing": {
+	{
+		"name": "Beijing",
+		"full_name": "China (Beijing)",
 		"code": "cn-north-1",
 		"public": false,
 		"zones": [
@@ -181,7 +221,9 @@
 			"cn-north-1b"
 		]
 	},
-	"ningxia": {
+	{
+		"name": "Ningxia",
+		"full_name": "China (Ningxia)",
 		"code": "cn-northwest-1",
 		"public": false,
 		"zones": [
@@ -190,4 +232,4 @@
 			"cn-northwest-1c"
 		]
 	}
-}
+]
