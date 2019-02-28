@@ -4,7 +4,7 @@
 |-------------|------------|-------------------
 | us-east-1 | N. Virginia | `us-east-1a` `us-east-1b` `us-east-1c` `us-east-1d` `us-east-1e` `us-east-1f`
 | us-east-2 | Ohio | `us-east-2a` `us-east-2b` `us-east-2c`
-| <sup>1</sup>us-west-1 | N. California | `us-west-1a` `us-west-1b` `*us-west-1c`
+| <sup>1</sup>us-west-1 | N. California | `us-west-1a` `us-west-1b` `us-west-1c`
 | us-west-2 | Oregon | `us-west-2a` `us-west-2b` `us-west-2c` `us-west-2d`
 | <sup>2</sup>us-gov-west-1 | US GovCloud West | `us-gov-west-1a` `us-gov-west-1b` `us-gov-west-1c`
 | <sup>2</sup>us-gov-east-1 | US GovCloud East | `us-gov-east-1a` `us-gov-east-1b` `us-gov-east-1c`
@@ -14,13 +14,13 @@
 | eu-west-2 | London | `eu-west-2a` `eu-west-2b` `eu-west-2c`
 | eu-west-3 | Paris | `eu-west-3a` `eu-west-3b` `eu-west-3c`
 | eu-central-1 | Frankfurt | `eu-central-1a` `eu-central-1b` `eu-central-1c`
-| <sup>1</sup>ap-northeast-1 | Tokyo | `ap-northeast-1a` `ap-northeast-1b` `ap-northeast-1c` `*ap-northeast-1d`
+| <sup>1</sup>ap-northeast-1 | Tokyo | `ap-northeast-1a` `ap-northeast-1b` `ap-northeast-1c` `ap-northeast-1d`
 | ap-northeast-2 | Seoul | `ap-northeast-2a` `ap-northeast-2c`
-| *<sup>4</sup>ap-northeast-3* | Osaka | `ap-northeast-3a`
+| <sup>4</sup>ap-northeast-3 | Osaka | `ap-northeast-3a`
 | ap-southeast-1 | Singapore | `ap-southeast-1a` `ap-southeast-1b` `ap-southeast-1c`
 | ap-southeast-2 | Sydney | `ap-southeast-2a` `ap-southeast-2b` `ap-southeast-2c`
 | ap-south-1 | Mumbai | `ap-south-1a` `ap-south-1b`
-| <sup>1</sup>sa-east-1 | Sao Paulo | `sa-east-1a` `sa-east-1b` `*sa-east-1c`
+| <sup>1</sup>sa-east-1 | Sao Paulo | `sa-east-1a` `sa-east-1b` `sa-east-1c`
 | <sup>3</sup>cn-north-1 | Bejing | `cn-north-1a` `cn-north-1b`
 | <sup>3</sup>cn-northwest-1 | Ningxia | `cn-northwest-1a` `cn-northwest-1b` `cn-northwest-1c`
 | *coming soon* | Bahrain | `...`
@@ -31,8 +31,7 @@
 *<sup>1</sup>To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*  
 *<sup>2</sup>The [US GovCloud](https://aws.amazon.com/govcloud-us/) region is only available to official U.S. government agencies and organizations.*  
 *<sup>3</sup>The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*  
-*<sup>4</sup>Only available in the local region*  
-*\*New accounts cannot access this region.*  
+*<sup>4</sup>Only available in the local region*
 
 ## Javascript API
 
