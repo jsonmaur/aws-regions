@@ -6,23 +6,10 @@ import (
 )
 
 func List() (Regions, error) {
-	// box, err := rice.FindBox("../")
-	// if err != nil {
-	// 	return nil, err
-	// }
-
-	// data, err := box.Bytes("regions.json")
-	// if err != nil {
-	// 	return nil, err
-	// }
-
-	// bytes, err := ioutil.ReadAll(data)
-	// if err != nil {
-	// 	return nil, err
-	// }
+	data := []byte(REGION_DATA)
 
 	var regions Regions
-	json.Unmarshal([]byte(REGION_DATA), &regions)
+	json.Unmarshal(data, &regions)
 
 	return regions, nil
 }
