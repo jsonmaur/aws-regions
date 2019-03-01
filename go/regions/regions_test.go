@@ -39,7 +39,7 @@ func TestLookupByCode(t *testing.T) {
 }
 
 func TestLookupByName(t *testing.T) {
-	result, err := LookupByName("Ohio")
+	result, err := LookupByName("ohio")
 	if err != nil {
 		t.Error(err)
 	}

@@ -3,7 +3,23 @@ package regions
 import (
 	"encoding/json"
 	"errors"
+	"strings"
 )
+
+func lookup(filter func(Region) bool) (Region, error) {
+	regions, err := List()
+	if err != nil {
+		return Region{}, err
+	}
+
+	for _, v := range regions {
+		if filter(v) {
+			return v, nil
+		}
+	}
+
+	return Region{}, errors.New("Could not find region")
+}
 
 func List() (Regions, error) {
 	data := []byte(REGION_DATA)
@@ -32,27 +48,12 @@ func ListPublic() (Regions, error) {
 
 func LookupByCode(code string) (Region, error) {
 	return lookup(func(region Region) bool {
-		return region.Code == code
+		return strings.ToLower(region.Code) == strings.ToLower(code)
 	})
 }
 
 func LookupByName(name string) (Region, error) {
 	return lookup(func(region Region) bool {
-		return region.Name == name
+		return strings.ToLower(region.Name) == strings.ToLower(name)
 	})
-}
-
-func lookup(filter func(Region) bool) (Region, error) {
-	regions, err := List()
-	if err != nil {
-		return Region{}, err
-	}
-
-	for _, v := range regions {
-		if filter(v) {
-			return v, nil
-		}
-	}
-
-	return Region{}, errors.New("Could not find region")
 }

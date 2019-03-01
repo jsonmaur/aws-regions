@@ -1,4 +1,8 @@
+/**
+ * This file is auto-generated from aws-regions/regions.sh
+ */
 package regions
+
 const REGION_DATA string = `[
 	{
 		"name": "N. Virginia",

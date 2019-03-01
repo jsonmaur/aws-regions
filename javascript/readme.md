@@ -1,7 +1,5 @@
 # AWS Regions - Javascript
 
-[See Regions List](../readme.md)
-
 ## Usage
 
 ```bash
@@ -62,3 +60,6 @@ awsRegions.lookup({ code: 'us-east-1' }) ===
 ## Zone Limit
 
 If a region's data object includes `zone_limit: int`, that means AWS accounts are limited to this number of availability zones (which will differ based on when your account was created.) You'll need to get your specific availability zones for this region with the AWS API or CLI.
+
+## [Regions List](../readme.md)
+

@@ -31,7 +31,7 @@
 | *coming soon* | Milan | `...`
 
 *<sup>1</sup>To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*  
-*<sup>2</sup>The [US GovCloud](https://aws.amazon.com/govcloud-us/) region is only available to official U.S. government agencies and organizations.*  
+*<sup>2</sup>The [US GovCloud](https://aws.amazon.com/govcloud-us/) regions are only available to official U.S. government agencies and organizations.*  
 *<sup>3</sup>The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*  
 *<sup>4</sup>Only available in the local region*
 
@@ -41,6 +41,10 @@
 ## Raw Data
 
 You can download a JSON file with all the region data [here](https://raw.githubusercontent.com/jsonmaur/aws-regions/master/regions.json).
+
+## Development
+
+Run `./regions.sh` to auto-generate data files for each SDK when the data in `regions.json` changes.
 
 ## License
 
