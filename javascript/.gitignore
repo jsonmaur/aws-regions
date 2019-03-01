@@ -1,0 +1,6 @@
+# Node
+node_modules
+npm-*.log
+
+# Temp
+regions.json

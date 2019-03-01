@@ -24,7 +24,10 @@
 	],
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha index.test.js"
+		"data": "cp ../regions.json regions.json",
+		"pretest": "npm run data",
+		"test": "mocha index.test.js",
+		"prepublish": "npm run data"
 	},
 	"devDependencies": {
 		"chai": "4.2.0",

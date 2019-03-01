@@ -1,6 +1,3 @@
 # macos
 .DS_Store
-
-# nodejs
-node_modules
-npm-*.log
+*.swp
