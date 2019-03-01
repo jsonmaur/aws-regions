@@ -3,25 +3,26 @@ package regions
 import (
 	"encoding/json"
 	"errors"
-	"io/ioutil"
-	"os"
 )
 
 func List() (Regions, error) {
-	file, err := os.Open("../../regions.json")
-	if err != nil {
-		return nil, err
-	} else {
-		defer file.Close()
-	}
+	// box, err := rice.FindBox("../")
+	// if err != nil {
+	// 	return nil, err
+	// }
 
-	bytes, err := ioutil.ReadAll(file)
-	if err != nil {
-		return nil, err
-	}
+	// data, err := box.Bytes("regions.json")
+	// if err != nil {
+	// 	return nil, err
+	// }
+
+	// bytes, err := ioutil.ReadAll(data)
+	// if err != nil {
+	// 	return nil, err
+	// }
 
 	var regions Regions
-	json.Unmarshal(bytes, &regions)
+	json.Unmarshal([]byte(REGION_DATA), &regions)
 
 	return regions, nil
 }
