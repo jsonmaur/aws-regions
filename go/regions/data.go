@@ -4,7 +4,6 @@
 package regions
 
 const REGION_DATA string = `[
-	[
 	{
 		"name": "N. Virginia",
 		"latitude":"38.13",
@@ -264,5 +263,4 @@ const REGION_DATA string = `[
 			"cn-northwest-1c"
 		]
 	}
-]
 ]`
