@@ -3,7 +3,7 @@ matrix:
         - language: go
           go:
               - 1.x
-          before_script:
+          before_install:
               - cd go/regions
         - language: node_js
           node_js:
@@ -13,5 +13,5 @@ matrix:
               - 8
               - 7
               - 6
-          before_script:
+          before_install:
               - cd javascript
