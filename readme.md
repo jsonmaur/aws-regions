@@ -1,7 +1,5 @@
 ![AWS Global Infrastructure](https://d1.awsstatic.com/what-is-aws/2019%20Infra%20Map%20-%20PDX.7f48f37bcd0d5df0b757eb646b844081f03d488c.png)
 
-# AWS Regions
-
 | Region Code | Region Name | Availability Zones
 |-------------|------------|-------------------
 | us-east-1 | N. Virginia | `us-east-1a` `us-east-1b` `us-east-1c` `us-east-1d` `us-east-1e` `us-east-1f`
@@ -35,8 +33,10 @@
 *<sup>3</sup>The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*  
 *<sup>4</sup>Only available in the local region*
 
-### [Javascript SDK](javascript)
-### [Go SDK](go)
+## Libraries [![Build Status](https://travis-ci.org/jsonmaur/aws-regions.svg?branch=master)](https://travis-ci.org/jsonmaur/aws-regions)
+
+- **[Go](go)**
+- **[Javascript](javascript)**
 
 ## Raw Data
 
