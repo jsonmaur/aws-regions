@@ -27,6 +27,7 @@
 | *coming soon* | Bahrain | `...`
 | *coming soon* | Cape Town | `...`
 | *coming soon* | Milan | `...`
+| *coming soon* | Jakarta | `...`
 
 *<sup>1</sup>To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*  
 *<sup>2</sup>The [US GovCloud](https://aws.amazon.com/govcloud-us/) regions are only available to official U.S. government agencies and organizations.*  
