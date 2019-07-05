@@ -160,6 +160,7 @@ const REGION_DATA string = `[
 		"public": true,
 		"zones": [
 			"ap-northeast-2a",
+			"ap-northeast-2b",
 			"ap-northeast-2c"
 		]
 	},
@@ -195,13 +196,25 @@ const REGION_DATA string = `[
 		]
 	},
 	{
+		"name": "Hong Kong",
+		"full_name": "Asia Pacific (Hong Kong)",
+		"code": "ap-east-1",
+		"public": true,
+		"zones": [
+			"ap-east-1a",
+			"ap-east-1b",
+			"ap-east-1c"
+		]
+	},
+	{
 		"name": "Mumbai",
 		"full_name": "Asia Pacific (Mumbai)",
 		"code": "ap-south-1",
 		"public": true,
 		"zones": [
 			"ap-south-1a",
-			"ap-south-1b"
+			"ap-south-1b",
+			"ap-south-1c"
 		]
 	},
 	{
