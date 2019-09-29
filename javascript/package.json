@@ -1,6 +1,6 @@
 {
 	"name": "aws-regions",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"description": "List of AWS Regions and Availability Zones",
 	"author": "Jason Maurer",
 	"license": "MIT",
@@ -31,6 +31,6 @@
 	},
 	"devDependencies": {
 		"chai": "4.2.0",
-		"mocha": "6.1.4"
+		"mocha": "6.2.1"
 	}
 }
