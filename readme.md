@@ -1,4 +1,4 @@
-![AWS Global Infrastructure](https://d1.awsstatic.com/what-is-aws/2019%20Infra%20Map%20-%20PDX.7f48f37bcd0d5df0b757eb646b844081f03d488c.png)
+![AWS Global Infrastructure](map.png)
 
 | Region Code | Region Name | Availability Zones
 |-------------|------------|-------------------
