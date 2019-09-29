@@ -230,6 +230,17 @@ const REGION_DATA string = `[
 		]
 	},
 	{
+		"name": "Bahrain",
+		"full_name": "Middle East (Bahrain)",
+		"code": "me-south-1",
+		"public": true,
+		"zones": [
+			"me-south-1a",
+			"me-south-1b",
+			"me-south-1c"
+		]
+	},
+	{
 		"name": "Beijing",
 		"full_name": "China (Beijing)",
 		"code": "cn-north-1",
