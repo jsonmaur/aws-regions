@@ -1,3 +1,4 @@
 # macos
 .DS_Store
 *.swp
+.history
