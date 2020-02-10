@@ -13,8 +13,8 @@
             "us-east-1f"
         ],
         "coordinates": {
-            "longitude": "-90.20607",
-            "latitude": "39.94600"
+            "longitude": -90.20607,
+            "latitude": 39.94600
         }
     },
     {
@@ -28,8 +28,8 @@
             "us-east-2c"
         ],
         "coordinates": {
-            "longitude": "-89.46344",
-            "latitude": "41.50396"
+            "longitude": -89.46344,
+            "latitude": 41.50396
         }
     },
     {
@@ -44,8 +44,8 @@
             "us-west-1c"
         ],
         "coordinates": {
-            "longitude": "-92.57275",
-            "latitude": "38.62998"
+            "longitude": -92.57275,
+            "latitude": 38.62998
         }
     },
     {
@@ -60,8 +60,8 @@
             "us-west-2d"
         ],
         "coordinates": {
-            "longitude": "-122.62206",
-            "latitude": "45.32745"
+            "longitude": -122.62206,
+            "latitude": 45.32745
         }
     },
     {
@@ -75,8 +75,8 @@
             "us-gov-west-1c"
         ],
         "coordinates": {
-            "longitude": "-97.09434",
-            "latitude": "31.78395"
+            "longitude": -97.09434,
+            "latitude": 31.78395
         }
     },
     {
@@ -90,8 +90,8 @@
             "us-gov-east-1c"
         ],
         "coordinates": {
-            "longitude": "-109.99673",
-            "latitude": "53.26630"
+            "longitude": -109.99673,
+            "latitude": 53.26630
         }
     },
     {
@@ -104,8 +104,8 @@
             "ca-central-1b"
         ],
         "coordinates": {
-            "longitude": "-105.53215",
-            "latitude": "50.40277"
+            "longitude": -105.53215,
+            "latitude": 50.40277
         }
     },
     {
@@ -119,8 +119,8 @@
             "eu-north-1c"
         ],
         "coordinates": {
-            "longitude": "18.04856",
-            "latitude": "59.33097"
+            "longitude": 18.04856,
+            "latitude": 59.33097
         }
     },
     {
@@ -134,8 +134,8 @@
             "eu-west-1c"
         ],
         "coordinates": {
-            "longitude": "-6.266155",
-            "latitude": "53.350140"
+            "longitude": -6.266155,
+            "latitude": 53.350140
         }
     },
     {
@@ -149,8 +149,8 @@
             "eu-west-2c"
         ],
         "coordinates": {
-            "longitude": "-0.11362",
-            "latitude": "51.51768"
+            "longitude": -0.11362,
+            "latitude": 51.51768
         }
     },
     {
@@ -164,8 +164,8 @@
             "eu-west-3c"
         ],
         "coordinates": {
-            "longitude": "2.34293",
-            "latitude": "48.85717"
+            "longitude": 2.34293,
+            "latitude": 48.85717
         }
     },
     {
@@ -179,8 +179,8 @@
             "eu-central-1c"
         ],
         "coordinates": {
-            "longitude": "8.65399",
-            "latitude": "50.12581"
+            "longitude": 8.65399,
+            "latitude": 50.12581
         }
     },
     {
@@ -196,8 +196,8 @@
             "ap-northeast-1d"
         ],
         "coordinates": {
-            "longitude": "8.65399",
-            "latitude": "50.12581"
+            "longitude": 139.68872,
+            "latitude": 35.68052
         }
     },
     {
@@ -211,8 +211,8 @@
             "ap-northeast-2c"
         ],
         "coordinates": {
-            "longitude": "126.99272",
-            "latitude": "37.57444"
+            "longitude": 126.99272,
+            "latitude": 37.57444
         }
     },
     {
@@ -224,8 +224,8 @@
             "ap-northeast-3a"
         ],
         "coordinates": {
-            "longitude": "135.50674",
-            "latitude": "34.69857"
+            "longitude": 135.50674,
+            "latitude": 34.69857
         }
     },
     {
@@ -239,8 +239,8 @@
             "ap-southeast-1c"
         ],
         "coordinates": {
-            "longitude": "103.851959",
-            "latitude": "1.290270"
+            "longitude": 103.851959,
+            "latitude": 1.290270
         }
     },
     {
@@ -254,8 +254,8 @@
             "ap-southeast-2c"
         ],
         "coordinates": {
-            "longitude": "-60.18560",
-            "latitude": "46.13527"
+            "longitude": -60.18560,
+            "latitude": 46.13527
         }
     },
     {
@@ -269,8 +269,8 @@
             "ap-east-1c"
         ],
         "coordinates": {
-            "longitude": "114.13624",
-            "latitude": "22.25424"
+            "longitude": 114.13624,
+            "latitude": 22.25424
         }
     },
     {
@@ -284,8 +284,8 @@
             "ap-south-1c"
         ],
         "coordinates": {
-            "longitude": "72.86730",
-            "latitude": "19.07257"
+            "longitude": 72.86730,
+            "latitude": 19.07257
         }
     },
     {
@@ -300,8 +300,8 @@
             "sa-east-1c"
         ],
         "coordinates": {
-            "longitude": "-37.54154",
-            "latitude": "-10.54420"
+            "longitude": -37.54154,
+            "latitude": -10.54420
         }
     },
     {
@@ -315,8 +315,8 @@
             "me-south-1c"
         ],
         "coordinates": {
-            "longitude": "25.9304142",
-            "latitude": "50.6377716"
+            "longitude": 25.9304142,
+            "latitude": 50.6377716
         }
     },
     {
@@ -329,8 +329,8 @@
             "cn-north-1b"
         ],
         "coordinates": {
-            "longitude": "116.38570",
-            "latitude": "39.90388"
+            "longitude": 116.38570,
+            "latitude": 39.90388
         }
     },
     {
@@ -344,8 +344,8 @@
             "cn-northwest-1c"
         ],
         "coordinates": {
-            "longitude": "106.249290",
-            "latitude": "38.488800"
+            "longitude": 106.249290,
+            "latitude": 38.488800
         }
     }
 ]
