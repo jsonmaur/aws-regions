@@ -6,6 +6,8 @@ package regions
 const REGION_DATA string = `[
 	{
 		"name": "N. Virginia",
+		"latitude":"38.13",
+		"longitude":"-78.45",
 		"full_name": "US East (N. Virginia)",
 		"code": "us-east-1",
 		"public": true,
@@ -20,6 +22,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Ohio",
+		"latitude":"39.96",
+		"longitude":"-83",
 		"full_name": "US East (Ohio)",
 		"code": "us-east-2",
 		"public": true,
@@ -31,6 +35,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "N. California",
+		"latitude":"37.35",
+		"longitude":"-121.96",
 		"full_name": "US West (N. California)",
 		"code": "us-west-1",
 		"public": true,
@@ -43,6 +49,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Oregon",
+		"latitude":"46.15",
+		"longitude":"-123.88",
 		"full_name": "US West (Oregon)",
 		"code": "us-west-2",
 		"public": true,
@@ -77,6 +85,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Canada",
+		"latitude":"45.5",
+		"longitude":"-73.6",
 		"full_name": "Canada (Central)",
 		"code": "ca-central-1",
 		"public": true,
@@ -110,6 +120,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "London",
+		"latitude":"51",
+		"longitude":"-0.1",
 		"full_name": "EU (London)",
 		"code": "eu-west-2",
 		"public": true,
@@ -121,6 +133,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Paris",
+		"latitude":"48.86",
+		"longitude":"2.35",
 		"full_name": "EU (Paris)",
 		"code": "eu-west-3",
 		"public": true,
@@ -132,6 +146,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Frankfurt",
+		"latitude":"50.00",
+		"longitude":"8.00",
 		"full_name": "EU (Frankfurt)",
 		"code": "eu-central-1",
 		"public": true,
@@ -165,6 +181,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Tokyo",
+		"latitude":"35.41",
+		"longitude":"139.42",
 		"full_name": "Asia Pacific (Tokyo)",
 		"code": "ap-northeast-1",
 		"public": true,
@@ -178,6 +196,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Seoul",
+		"latitude":"37.56",
+		"longitude":"126.98",
 		"full_name": "Asia Pacific (Seoul)",
 		"code": "ap-northeast-2",
 		"public": true,
@@ -198,6 +218,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Singapore",
+		"latitude":"1.37",
+		"longitude":"103.8",
 		"full_name": "Asia Pacific (Singapore)",
 		"code": "ap-southeast-1",
 		"public": true,
@@ -209,6 +231,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Sydney",
+		"latitude":"33.8",
+		"longitude":"151.2",
 		"full_name": "Asia Pacific (Sydney)",
 		"code": "ap-southeast-2",
 		"public": true,
@@ -231,6 +255,8 @@ const REGION_DATA string = `[
 	},
 	{
 		"name": "Mumbai",
+		"latitude":"19.08",
+		"longitude":"72.88",
 		"full_name": "Asia Pacific (Mumbai)",
 		"code": "ap-south-1",
 		"public": true,
