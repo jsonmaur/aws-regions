@@ -7,8 +7,8 @@ func TestList(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	if len(result) != 23 {
-		t.Errorf("Should have 23 regions, got %v", len(result))
+	if len(result) < 23 {
+		t.Errorf("Should have at least 23 regions, got %v", len(result))
 	}
 	if result[0].Name != "N. Virginia" {
 		t.Error("Couldn't find name on first region")
@@ -20,8 +20,8 @@ func TestListPublic(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	if len(result) != 18 {
-		t.Errorf("Should have 18 regions, got %v", len(result))
+	if len(result) < 18 {
+		t.Errorf("Should have at least 18 regions, got %v", len(result))
 	}
 	if result[0].Name != "N. Virginia" {
 		t.Error("Couldn't find name on first region")
