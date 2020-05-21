@@ -82,7 +82,8 @@ const REGION_DATA string = `[
 		"public": true,
 		"zones": [
 			"ca-central-1a",
-			"ca-central-1b"
+			"ca-central-1b",
+			"ca-central-1c"
 		]
 	},
 	{
@@ -138,6 +139,28 @@ const REGION_DATA string = `[
 			"eu-central-1a",
 			"eu-central-1b",
 			"eu-central-1c"
+		]
+	},
+	{
+		"name": "Milan",
+		"full_name": "EU (Milan)",
+		"code": "eu-south-1",
+		"public": true,
+		"zones": [
+			"eu-south-1a",
+			"eu-south-1b",
+			"eu-south-1c"
+		]
+	},
+	{
+		"name": "Cape Town",
+		"full_name": "Africa (Cape Town)",
+		"code": "af-south-1",
+		"public": true,
+		"zones": [
+			"af-south-1a",
+			"af-south-1b",
+			"af-south-1c"
 		]
 	},
 	{
