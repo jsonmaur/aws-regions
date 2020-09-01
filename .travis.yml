@@ -4,7 +4,7 @@ matrix:
       go:
         - 1.x
       before_install:
-        - cd go/regions
+        - cd go/v2
     - language: node_js
       node_js:
         - 14
