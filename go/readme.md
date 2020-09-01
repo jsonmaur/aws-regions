@@ -7,7 +7,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/jsonmaur/aws-regions/go/regions"
+	"github.com/jsonmaur/aws-regions/go/v2"
 )
 
 func main() {
