@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cp regions.json javascript/regions.json
+cp regions.json js/regions.json
 
-cat > go/v2/data.go <<EOF
+cat > v2/data.go <<EOF
 /**
  * This file is auto-generated from aws-regions/regions.sh
  */

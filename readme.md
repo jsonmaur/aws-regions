@@ -38,8 +38,8 @@
 
 ## Libraries [![Build Status](https://travis-ci.org/jsonmaur/aws-regions.svg?branch=master)](https://travis-ci.org/jsonmaur/aws-regions)
 
-- **[Go](go)**
-- **[Javascript](javascript)**
+- **[Go](v2)**
+- **[Javascript](js)**
 
 ## Raw Data
 
