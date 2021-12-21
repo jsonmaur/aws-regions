@@ -83,7 +83,8 @@ const REGION_DATA string = `[
 		"zones": [
 			"ca-central-1a",
 			"ca-central-1b",
-			"ca-central-1c"
+			"ca-central-1c",
+			"ca-central-1d"
 		]
 	},
 	{
@@ -184,16 +185,19 @@ const REGION_DATA string = `[
 		"zones": [
 			"ap-northeast-2a",
 			"ap-northeast-2b",
-			"ap-northeast-2c"
+			"ap-northeast-2c",
+			"ap-northeast-2d"
 		]
 	},
 	{
 		"name": "Osaka",
 		"full_name": "Asia Pacific (Osaka-Local)",
 		"code": "ap-northeast-3",
-		"public": false,
+		"public": true,
 		"zones": [
-			"ap-northeast-3a"
+			"ap-northeast-3a",
+			"ap-northeast-3b",
+			"ap-northeast-3c"
 		]
 	},
 	{
@@ -216,6 +220,17 @@ const REGION_DATA string = `[
 			"ap-southeast-2a",
 			"ap-southeast-2b",
 			"ap-southeast-2c"
+		]
+	},
+	{
+		"name": "Jakarta",
+		"full_name": "Asia Pacific (Jakarta)",
+		"code": "ap-southeast-3",
+		"public": true,
+		"zones": [
+			"ap-southeast-3a",
+			"ap-southeast-3b",
+			"ap-southeast-3c"
 		]
 	},
 	{
@@ -270,7 +285,8 @@ const REGION_DATA string = `[
 		"public": false,
 		"zones": [
 			"cn-north-1a",
-			"cn-north-1b"
+			"cn-north-1b",
+			"cn-north-1c"
 		]
 	},
 	{
