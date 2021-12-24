@@ -8,7 +8,7 @@
 | us-west-2 | Oregon | `us-west-2a` `us-west-2b` `us-west-2c` `us-west-2d`
 | <sup>2</sup>us-gov-west-1 | US GovCloud West | `us-gov-west-1a` `us-gov-west-1b` `us-gov-west-1c`
 | <sup>2</sup>us-gov-east-1 | US GovCloud East | `us-gov-east-1a` `us-gov-east-1b` `us-gov-east-1c`
-| ca-central-1 | Canada | `ca-central-1a` `ca-central-1b` `ca-central-1c`
+| ca-central-1 | Canada | `ca-central-1a` `ca-central-1b` `ca-central-1c` `ca-central-1d`
 | eu-north-1 | Stockholm | `eu-north-1a` `eu-north-1b` `eu-north-1c`
 | eu-west-1 | Ireland | `eu-west-1a` `eu-west-1b` `eu-west-1c`
 | eu-west-2 | London | `eu-west-2a` `eu-west-2b` `eu-west-2c`
@@ -17,24 +17,22 @@
 | eu-south-1 | Milan | `eu-south-1a` `eu-south-1b` `eu-south-1c`
 | af-south-1 | Cape Town | `af-south-1a` `af-south-1b` `af-south-1c`
 | <sup>1</sup>ap-northeast-1 | Tokyo | `ap-northeast-1a` `ap-northeast-1b` `ap-northeast-1c` `ap-northeast-1d`
-| ap-northeast-2 | Seoul | `ap-northeast-2a` `ap-northeast-2b` `ap-northeast-2c`
-| <sup>4</sup>ap-northeast-3 | Osaka | `ap-northeast-3a`
+| ap-northeast-2 | Seoul | `ap-northeast-2a` `ap-northeast-2b` `ap-northeast-2c` `ap-northeast-2d`
+| ap-northeast-3 | Osaka | `ap-northeast-3a` `ap-northeast-3b` `ap-northeast-3c`
 | ap-southeast-1 | Singapore | `ap-southeast-1a` `ap-southeast-1b` `ap-southeast-1c`
 | ap-southeast-2 | Sydney | `ap-southeast-2a` `ap-southeast-2b` `ap-southeast-2c`
 | ap-east-1 | Hong Kong | `ap-east-1a` `ap-east-1b` `ap-east-1c`
 | ap-south-1 | Mumbai | `ap-south-1a` `ap-south-1b` `ap-south-1c`
 | me-south-1 | Bahrain | `me-south-1a` `me-south-1b` `me-south-1c`
 | <sup>1</sup>sa-east-1 | São Paulo | `sa-east-1a` `sa-east-1b` `sa-east-1c`
-| <sup>3</sup>cn-north-1 | Bejing | `cn-north-1a` `cn-north-1b`
+| <sup>3</sup>cn-north-1 | Bejing | `cn-north-1a` `cn-north-1b` `cn-north-1c`
 | <sup>3</sup>cn-northwest-1 | Ningxia | `cn-northwest-1a` `cn-northwest-1b` `cn-northwest-1c`
-| *coming soon* | Osaka (non-local) | `...`
-| *coming soon* | Jakarta | `...`
+| ap-southeast-3 | Jakarta | `ap-southeast-3a` `ap-southeast-3b` `ap-southeast-3c`
 | *coming soon* | Spain | `...`
 
 *<sup>1</sup>To ensure that resources are distributed across the Availability Zones for these regions, they may differ for each AWS account. You can run `aws ec2 describe-availability-zones --region $REGION` to be sure which ones are available to you.*  
 *<sup>2</sup>The [US GovCloud](https://aws.amazon.com/govcloud-us/) regions are only available to official U.S. government agencies and organizations.*  
 *<sup>3</sup>The China regions are only available to [AWS in China](https://www.amazonaws.cn) accounts.*  
-*<sup>4</sup>Only available in the local region*
 
 ## Libraries [![Build Status](https://travis-ci.org/jsonmaur/aws-regions.svg?branch=master)](https://travis-ci.org/jsonmaur/aws-regions)
 
