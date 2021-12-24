@@ -30,7 +30,7 @@
 		"prepublish": "npm run data"
 	},
 	"devDependencies": {
-		"chai": "4.2.0",
-		"mocha": "7.1.2"
+		"chai": "^4.3.4",
+		"mocha": "^9.1.3"
 	}
 }
