@@ -1,4 +1,9 @@
-[
+/**
+ * This file is auto-generated from aws-regions/regions.sh
+ */
+package regions
+
+const REGION_DATA string = `[
 	{
 		"name": "N. Virginia",
 		"full_name": "US East (N. Virginia)",
@@ -295,4 +300,4 @@
 			"cn-northwest-1c"
 		]
 	}
-]
+]`
