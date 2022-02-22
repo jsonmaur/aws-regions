@@ -1,17 +1,20 @@
 matrix:
-    include:
-        - language: go
-          go:
-              - 1.x
-          before_install:
-              - cd go/regions
-        - language: node_js
-          node_js:
-              - 11
-              - 10
-              - 9
-              - 8
-              - 7
-              - 6
-          before_install:
-              - cd javascript
+  include:
+    - language: go
+      go:
+        - 1.x
+      before_install:
+        - cd v2
+    - language: node_js
+      node_js:
+        - 14
+        - 13
+        - 12
+        - 11
+        - 10
+        - 9
+        - 8
+        - 7
+        - 6
+      before_install:
+        - cd js

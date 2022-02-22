@@ -11,7 +11,7 @@ describe('unit: index', () => {
 
 	it('list() public', async () => {
 		const data = awsRegions.list({ public: true })
-		expect(data).to.have.length(18)
+		expect(data.length).to.be.above(18)
 	})
 
 	it('lookup() by name', async () => {
